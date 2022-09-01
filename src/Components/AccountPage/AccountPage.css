@@ -1,0 +1,13 @@
+.form__field {
+  position: relative;
+}
+
+.form__inputHidePW {
+  position: absolute;
+  box-sizing: border-box;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  right: 15px;
+  top: 12px;
+}

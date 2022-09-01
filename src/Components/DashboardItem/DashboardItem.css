@@ -1,0 +1,17 @@
+.DashboardItemComponent {
+
+  font-size: 1.5rem;
+}
+
+.DashboardItemComponent__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between
+}
+
+.DashboardItemComponent__container img {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}

@@ -1,0 +1,158 @@
+.DashboardComponent__Title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.DashboardComponent__Title h2 {
+  margin-left: 20px;
+  color: #ea4c88;
+  font-size: 28px;
+}
+
+
+.dashboardComponent__LogoutButton {
+  margin: 14px;
+  cursor: pointer;
+  background-color: #ea4c88;
+  color: #eee;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  padding: 16px;
+  width: 320px;
+  height: 53px;
+  border: none;
+}
+
+
+
+.DashboardItemComponent__form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DashboardItemComponent__form input,
+.DashboardItemComponent__form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+}
+
+.DashboardItemComponent__form button {
+  height: 64px;
+  color: #d88771;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.DashboardItemComponent__form button:hover {
+  background: #d88771;
+  color: #fff;
+}
+
+.DashboardItemComponent__accountContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.DashboardItemComponent__accountList {
+  min-width: 30%;
+  list-style: none;
+}
+
+/* .todo-item {
+  padding: 5px;
+
+}
+
+.todo {
+  border-radius: 5px;
+  margin: 0.5rem;
+  background: white;
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.todo li {
+  flex: 1;
+}
+
+.trash-btn,
+.complete-btn {
+  background: #ff6f47;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+
+}
+
+.complete-btn {
+  background: rgb(48, 214, 23);
+}
+
+.trash-btn {
+  border-radius: 0 5px 5px 0;
+}
+
+.fa-trash,
+.fa-check {
+  pointer-events: none;
+}
+
+
+.fall {
+  transform: translateX(10rem) rotateZ(0deg);
+  opacity: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+}
+
+.select {
+  margin: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
+select {
+  color: #ff6f47;
+  width: 12rem;
+  cursor: pointer;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.select::after {
+  content: "\25BC";
+  background: #ff6f47;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+  pointer-events: none;
+  transition: all 0.3s ease;
+}
+
+.select:hover::after {
+  background: #fff;
+  color: #ff6f47;
+}
+ */
