@@ -87,6 +87,7 @@ export default function AccountPage() {
               className="form__input"
               value={hidePW ? "********" : password}
               placeholder="Password"
+              onClick={() => setHidePW((prev) => !prev)}
             />
             <img src={eyePNG}
               className="form__inputHidePW"
